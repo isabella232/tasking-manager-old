@@ -62,7 +62,7 @@
         <div class="page__headline">
             <h1 class="page__title">
                 <a href="/" title="{{ 'Visit homepage' | translate }}">
-                    <img src="./assets/img/hot-tm-logo.svg" alt="HOT logo" height="37">
+                    <img src="./assets/img/favicon.ico" alt="HOT logo" height="37">
                 </a>
             </h1>
         </div>
@@ -72,6 +72,11 @@
             </h2>
             <div class="menu-wrapper" ng-class="showMenu ? 'menu-wrapper menu-wrapper--open' : 'menu-wrapper'" ng-cloak>
                 <ul class="global-menu" id="global-menu">
+                    <li>
+                        <a href="/" title="{{ 'Visit homepage' | translate }}" class="global-menu-item">
+                            <b>{{ 'TASKING MANAGER' | translate }}</b>
+                        </a>
+                    </li>
                     <li>
                         <a href="/contribute" title="{{ 'Start mapping' | translate }}" class="global-menu-item">
                             <span>{{ 'Contribute' | translate }}</span>
